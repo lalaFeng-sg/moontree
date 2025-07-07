@@ -12,6 +12,7 @@ A modern, responsive website for IT support and technology consulting services. 
 - 📞 Contact form integration
 - 🌐 SEO optimized
 - 🖼️ Professional business imagery
+- 🎯 Professional favicon
 
 ## Tech Stack
 
@@ -19,7 +20,7 @@ A modern, responsive website for IT support and technology consulting services. 
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Icons**: Heroicons
-- **Font**: Inter (Google Fonts)
+- **Font**: Inter, Poppins, Open Sans (Google Fonts)
 
 ## Getting Started
 
@@ -72,7 +73,10 @@ moontree/
 │   │   ├── team-working.jpg # Team collaboration image
 │   │   ├── office.jpg # Office environment image
 │   │   └── README.md # Image documentation
-│   └── logo.png       # Company logo
+│   ├── favicon.svg     # Vector favicon
+│   ├── site.webmanifest # Web app manifest
+│   ├── generate-favicon.html # Favicon generator tool
+│   └── logo.png        # Company logo
 ├── components/         # Reusable components (if any)
 └── ...
 ```
@@ -109,11 +113,8 @@ Global styles and custom components are defined in `src/app/globals.css`.
 ### Images
 Business imagery is stored in `public/images/` directory. See `public/images/README.md` for detailed specifications and recommendations for each image.
 
-To download sample images, run:
-```bash
-chmod +x download-images.sh
-./download-images.sh
-```
+### Favicon
+Favicon configuration is in `public/favicon.svg`. Use `public/generate-favicon.html` to generate PNG versions for different sizes.
 
 ## Deployment
 
