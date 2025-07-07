@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#2563eb"/>
+  
+  <!-- Letter M -->
+  <path d="M8 22V10L12 18L16 10L20 18L24 10V22H22V18L20 12L16 20L12 12L10 18V22H8Z" fill="white"/>
+  
+  <!-- Tech accent -->
+  <circle cx="26" cy="6" r="2" fill="#22c55e"/>
+</svg> 
